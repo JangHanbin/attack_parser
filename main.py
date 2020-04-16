@@ -102,7 +102,7 @@ if __name__=='__main__':
     links = [apt_37, apt_38]
 
     for link in links:
-        apt_json = make_json(apt_37)
+        apt_json = make_json(link)
         path = apt_json['title']
 
         if not os.path.exists(path):
